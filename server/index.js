@@ -8,7 +8,7 @@ import {pool} from './db.js'
 
 const app = express();
 
-app.get('/', (req, res) => res.send ('Pequeño Juan')) //? Para el inicio /
+app.get('/', (req, res) => res.send ('<h1>Dale Pequeño Juan</h1>')) //? Para el inicio /
 
 app.use(express.json()) //? Convierte todo lo que llega de las rutas en formato JSON
 
